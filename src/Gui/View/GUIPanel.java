@@ -12,9 +12,12 @@ public class GUIPanel extends JPanel
 {
 	private GUIAppController baseController;
 	
+	
 	public GUIPanel(GUIAppController baseController)
 	{
 		this.baseController = baseController;
+	
+
 	}
 	
 }
