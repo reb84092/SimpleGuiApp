@@ -15,11 +15,13 @@ public class GUIFrame extends JFrame
 	public GUIFrame(GUIAppController baseController)
 	{
 		this.baseController = baseController;
+		setupFrame();
 	}
 	
 	private void setupFrame()
 	{
 		this.setSize(400,400);
+		this.setResizable(false);
 		this.setVisible(true);
 	}
 	
