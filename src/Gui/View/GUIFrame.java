@@ -24,6 +24,7 @@ public class GUIFrame extends JFrame
 	{
 		this.setContentPane(basePanel); //Must be a first line of setupFrame!
 		this.setSize(400,400); //Find a good size for the app.
+		this.setTitle("Silly App!!");
 		this.setResizable(false); //Advisable, not required.
 		this.setVisible(true); //Must be the last line of setupFrame!
 	}
